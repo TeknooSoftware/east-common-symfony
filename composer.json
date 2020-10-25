@@ -1,6 +1,5 @@
 {
     "name": "teknoo/east-website-symfony",
-    "description": "",
     "type": "metapackage",
     "description": "Metapackage to install Teknoo East Website in Symfony, Package following the #East programming philosophy, build on Teknoo/East-Foundation (and Teknoo/Recipe), and implementing a basic CMS to display dynamics pages with different types and templates.",
     "license": "MIT",
