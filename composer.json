@@ -2,14 +2,24 @@
     "name": "teknoo/east-website-symfony",
     "type": "metapackage",
     "description": "Metapackage to install Teknoo East Website in Symfony, Package following the #East programming philosophy, build on Teknoo/East-Foundation (and Teknoo/Recipe), and implementing a basic CMS to display dynamics pages with different types and templates.",
-    "license": "MIT",
     "keywords": ["east","website","cms"],
     "homepage": "http://teknoo.software/website",
+    "license": "MIT",
     "authors": [
         {
             "name": "Richard Déloge",
             "email": "richarddeloge@gmail.com",
             "role":"Software architect, Lead developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/TeknooSoftware/east-website-symfony/issues",
+        "source": "https://github.com/TeknooSoftware/east-website-symfony"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/teknoo_software"
         }
     ],
     "require": {
