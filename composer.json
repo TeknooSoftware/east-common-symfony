@@ -25,10 +25,10 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "teknoo/east-foundation-symfony": "^3.2.3",
+        "teknoo/east-foundation-symfony": "^3.2.4",
         "teknoo/east-website": "^3.2.4",
         "teknoo/bridge-phpdi-symfony": "^4.0.3",
-        "teknoo/composer-install": "^0.0.1",
+        "teknoo/composer-install": "~0.0.2",
         "psr/http-message":"^1.0.1",
         "psr/http-factory":"^1.0.1",
         "symfony/console": "~4.4||~5.1",
@@ -50,6 +50,9 @@
     },
     "extra": {
         "Teknoo\\Composer\\Installer": {
+            "config": {
+                "disabled": true
+            },
             "Teknoo\\Composer\\Action\\SymfonyBundle": {
                 "Doctrine\\Bundle\\MongoDBBundle\\DoctrineMongoDBBundle": {"all": true},
                 "Teknoo\\DI\\SymfonyBridge\\DIBridgeBundle": {"all":  true},
@@ -85,61 +88,9 @@
                     "                    is_bundle: false",
                     "                    prefix: 'Teknoo\\East\\Website\\Doctrine\\Object'"
                 ],
-                "east_website_security.yaml": [
-                    "# To get started with security, check out the documentation:",
-                    "# http://symfony.com/doc/current/security.html",
-                    "security:",
-                    "    encoders:",
-                    "        Teknoo\\East\\WebsiteBundle\\Object\\User:",
-                    "            algorithm: 'sha512'",
-                    "            iterations: 100",
-                    "            encode_as_base64: false",
-                    "",
-                    "    role_hierarchy:",
-                    "        ROLE_ADMIN: 'ROLE_USER'",
-                    "",
-                    "    providers:",
-                    "        main:",
-                    "            id: 'teknoo.east.website.bundle.user_provider'",
-                    "",
-                    "    firewalls:",
-                    "        # disables authentication for assets and the profiler, adapt it according to your needs",
-                    "        dev:",
-                    "            pattern: ^/(_(profiler|wdt)|css|images|js)/",
-                    "            security: false",
-                    "",
-                    "        #Admin area, allow anonymous for login",
-                    "        admin_login:",
-                    "            pattern: '^/admin/login$'",
-                    "            security: false",
-                    "",
-                    "        #require admin role for all others pages",
-                    "        admin_area:",
-                    "            pattern: '^/admin'",
-                    "            form_login:",
-                    "                check_path: 'admin_website_check'",
-                    "                login_path: 'admin_website_login'",
-                    "                default_target_path: 'admin_website_home'",
-                    "                always_use_default_target_path: false",
-                    "                use_referer: true",
-                    "                csrf_token_generator: 'security.csrf.token_manager'",
-                    "            remember_me:",
-                    "                secret: '%env(APP_REMEMBER_SECRET)%'",
-                    "                secure: true",
-                    "                httponly: true",
-                    "            logout:",
-                    "                path: 'admin_website_logout'",
-                    "                target: 'admin_website_home'",
-                    "",
-                    "        main:",
-                    "            anonymous: ~",
-                    "",
-                    "    access_control:",
-                    "        #Admin : require role admin",
-                    "        - { path: '^/admin/', roles: ROLE_ADMIN, requires_channel: https }",
-                    "        #Front : available for anyone",
-                    "        - { path: '^/', roles: [ROLE_USER,IS_AUTHENTICATED_ANONYMOUSLY], requires_channel: https }"
-                ]
+                "east_website_security.yaml.dist": {
+                    "base64": "IyBUbyBnZXQgc3RhcnRlZCB3aXRoIHNlY3VyaXR5LCBjaGVjayBvdXQgdGhlIGRvY3VtZW50YXRpb246CiMgaHR0cDovL3N5bWZvbnkuY29tL2RvYy9jdXJyZW50L3NlY3VyaXR5Lmh0bWwKc2VjdXJpdHk6CiAgICBlbmNvZGVyczoKICAgICAgICBUZWtub29cRWFzdFxXZWJzaXRlQnVuZGxlXE9iamVjdFxVc2VyOgogICAgICAgICAgICBhbGdvcml0aG06ICdzaGE1MTInCiAgICAgICAgICAgIGl0ZXJhdGlvbnM6IDEwMAogICAgICAgICAgICBlbmNvZGVfYXNfYmFzZTY0OiBmYWxzZQoKICAgIHJvbGVfaGllcmFyY2h5OgogICAgICAgIFJPTEVfQURNSU46ICdST0xFX1VTRVInCgogICAgcHJvdmlkZXJzOgogICAgICAgIG1haW46CiAgICAgICAgICAgIGlkOiAndGVrbm9vLmVhc3Qud2Vic2l0ZS5idW5kbGUudXNlcl9wcm92aWRlcicKCiAgICBmaXJld2FsbHM6CiAgICAgICAgIyBkaXNhYmxlcyBhdXRoZW50aWNhdGlvbiBmb3IgYXNzZXRzIGFuZCB0aGUgcHJvZmlsZXIsIGFkYXB0IGl0IGFjY29yZGluZyB0byB5b3VyIG5lZWRzCiAgICAgICAgZGV2OgogICAgICAgICAgICBwYXR0ZXJuOiBeLyhfKHByb2ZpbGVyfHdkdCl8Y3NzfGltYWdlc3xqcykvCiAgICAgICAgICAgIHNlY3VyaXR5OiBmYWxzZQoKICAgICAgICAjQWRtaW4gYXJlYSwgYWxsb3cgYW5vbnltb3VzIGZvciBsb2dpbgogICAgICAgIGFkbWluX2xvZ2luOgogICAgICAgICAgICBwYXR0ZXJuOiAnXi9hZG1pbi9sb2dpbiQnCiAgICAgICAgICAgIHNlY3VyaXR5OiBmYWxzZQoKICAgICAgICAjcmVxdWlyZSBhZG1pbiByb2xlIGZvciBhbGwgb3RoZXJzIHBhZ2VzCiAgICAgICAgYWRtaW5fYXJlYToKICAgICAgICAgICAgcGF0dGVybjogJ14vYWRtaW4nCiAgICAgICAgICAgIGZvcm1fbG9naW46CiAgICAgICAgICAgICAgICBjaGVja19wYXRoOiAnYWRtaW5fd2Vic2l0ZV9jaGVjaycKICAgICAgICAgICAgICAgIGxvZ2luX3BhdGg6ICdhZG1pbl93ZWJzaXRlX2xvZ2luJwogICAgICAgICAgICAgICAgZGVmYXVsdF90YXJnZXRfcGF0aDogJ2FkbWluX3dlYnNpdGVfaG9tZScKICAgICAgICAgICAgICAgIGFsd2F5c191c2VfZGVmYXVsdF90YXJnZXRfcGF0aDogZmFsc2UKICAgICAgICAgICAgICAgIHVzZV9yZWZlcmVyOiB0cnVlCiAgICAgICAgICAgICAgICBjc3JmX3Rva2VuX2dlbmVyYXRvcjogJ3NlY3VyaXR5LmNzcmYudG9rZW5fbWFuYWdlcicKICAgICAgICAgICAgcmVtZW1iZXJfbWU6CiAgICAgICAgICAgICAgICBzZWNyZXQ6ICclZW52KEFQUF9SRU1FTUJFUl9TRUNSRVQpJScKICAgICAgICAgICAgICAgIHNlY3VyZTogdHJ1ZQogICAgICAgICAgICAgICAgaHR0cG9ubHk6IHRydWUKICAgICAgICAgICAgbG9nb3V0OgogICAgICAgICAgICAgICAgcGF0aDogJ2FkbWluX3dlYnNpdGVfbG9nb3V0JwogICAgICAgICAgICAgICAgdGFyZ2V0OiAnYWRtaW5fd2Vic2l0ZV9ob21lJwoKICAgICAgICBtYWluOgogICAgICAgICAgICBhbm9ueW1vdXM6IH4KCiAgICBhY2Nlc3NfY29udHJvbDoKICAgICAgICAjQWRtaW4gOiByZXF1aXJlIHJvbGUgYWRtaW4KICAgICAgICAtIHsgcGF0aDogJ14vYWRtaW4vJywgcm9sZXM6IFJPTEVfQURNSU4sIHJlcXVpcmVzX2NoYW5uZWw6IGh0dHBzIH0KICAgICAgICAjRnJvbnQgOiBhdmFpbGFibGUgZm9yIGFueW9uZQogICAgICAgIC0geyBwYXRoOiAnXi8nLCByb2xlczogW1JPTEVfVVNFUixJU19BVVRIRU5USUNBVEVEX0FOT05ZTU9VU0xZXSwgcmVxdWlyZXNfY2hhbm5lbDogaHR0cHMgfQo="
+                }
             },
             "Teknoo\\Composer\\Action\\SymfonyRoutes": {
                 "website.yaml": [
