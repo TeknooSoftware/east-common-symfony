@@ -25,7 +25,7 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "teknoo/east-foundation-symfony": "^3.2.2",
+        "teknoo/east-foundation-symfony": "^dev-feature-install",
         "teknoo/east-website": "^3.2.4",
         "teknoo/bridge-phpdi-symfony": "^4.0.3",
         "teknoo/composer-install": "dev-master",
