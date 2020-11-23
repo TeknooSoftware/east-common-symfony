@@ -51,6 +51,7 @@
     "extra": {
         "Teknoo\\Composer\\Installer": {
             "Teknoo\\Composer\\Action\\SymfonyBundle": {
+                "Doctrine\\Bundle\\MongoDBBundle\\DoctrineMongoDBBundle": {"all": true},
                 "Teknoo\\DI\\SymfonyBridge\\DIBridgeBundle": {"all":  true},
                 "Teknoo\\East\\FoundationBundle\\EastFoundationBundle": {"all": true }
             },
