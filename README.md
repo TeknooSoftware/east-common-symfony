@@ -3,6 +3,23 @@ Teknoo Software - Website library
 
 Metapackage to install [Teknoo East Website](https://github.com/TeknooSoftware/east-website) with Symfony. 
 
+Installation & Requirements
+---------------------------
+To install this library with composer, run these commands :
+
+    composer require teknoo/composer-install
+    composer require teknoo/east-website-symfony    
+
+This library requires :
+
+    * PHP 7.4+
+    * A PHP autoloader (Composer is recommended)
+    * Teknoo/Immutable.
+    * Teknoo/States.
+    * Teknoo/Recipe.
+    * Teknoo/East-Foundation.
+    * Optional: Symfony 4.4+ (for administration)
+
 Support this project
 ---------------------
 
