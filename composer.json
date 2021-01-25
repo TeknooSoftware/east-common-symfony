@@ -30,7 +30,7 @@
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
         "teknoo/east-foundation-symfony": "^3.3.0",
-        "teknoo/east-website": "^4.0.0",
+        "teknoo/east-website": "^4.0.3",
         "teknoo/bridge-phpdi-symfony": "^4.0.4",
         "teknoo/composer-install": "~0.0.11",
         "psr/http-message":"^1.0.1",
@@ -71,7 +71,6 @@
                     "        - '%kernel.project_dir%/vendor/teknoo/east-website/infrastructures/doctrine/di.php'",
                     "        - '%kernel.project_dir%/vendor/teknoo/east-website/infrastructures/symfony/Resources/config/di.php'",
                     "        - '%kernel.project_dir%/vendor/teknoo/east-website/infrastructures/symfony/Resources/config/laminas_di.php'",
-                    "        - '%kernel.project_dir%/vendor/teknoo/east-website/infrastructures/symfony/Resources/config/twig.php'",
                     "        - '%kernel.project_dir%/vendor/teknoo/east-website/infrastructures/di.php'",
                     "    import:",
                     "        Doctrine\\Persistence\\ObjectManager: 'doctrine_mongodb.odm.default_document_manager'"
