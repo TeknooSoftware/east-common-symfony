@@ -124,6 +124,7 @@
                     "",
                     "admin_website_check:",
                     "  path: '/admin/check'",
+                    "  methods: ['POST']",
                     "  defaults:",
                     "    _controller: 'teknoo.east.website.endpoint.static'",
                     "    template: '@@TeknooEastWebsite/Admin/index.html.twig'",
