@@ -32,23 +32,23 @@
         "doctrine/common": "~3.1",
         "doctrine/mongodb-odm": "~2.2",
         "doctrine/mongodb-odm-bundle": "~4.3",
-        "laminas/laminas-diactoros": "~2.5",
+        "laminas/laminas-diactoros": "~2.8",
         "psr/http-message":"^1.0.1",
         "psr/http-factory":"^1.0.1",
         "symfony/console": "~5.3",
         "symfony/form": "~5.3",
         "symfony/http-kernel": "~5.3",
-        "symfony/psr-http-message-bridge": "~2.0",
+        "symfony/psr-http-message-bridge": "~2.1",
         "symfony/security-core": "~5.3",
         "symfony/security-bundle": "~5.3",
         "symfony/templating": "~5.3",
         "symfony/yaml": "~5.3",
-        "teknoo/bridge-phpdi-symfony": "^5.0.2",
+        "teknoo/bridge-phpdi-symfony": "^5.0.4",
         "teknoo/composer-install": "^0.0.14",
-        "teknoo/east-foundation-symfony": "^5.3.3",
+        "teknoo/east-foundation-symfony": "^5.3.5",
         "teknoo/states": "^5.0.6",
         "teknoo/east-website": "^6.1.0",
-        "twig/twig": "~3.0"
+        "twig/twig": "~3.3"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
