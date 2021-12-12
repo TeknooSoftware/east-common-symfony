@@ -43,11 +43,11 @@
         "symfony/security-bundle": "~5.4||~6.0",
         "symfony/templating": "~5.4||~6.0",
         "symfony/yaml": "~5.4||~6.0",
-        "teknoo/bridge-phpdi-symfony": "^5.0.5",
-        "teknoo/composer-install": "^0.0.17",
-        "teknoo/east-foundation-symfony": "^5.3.7",
-        "teknoo/states": "^5.1.4",
-        "teknoo/east-website": "^6.1.5",
+        "teknoo/bridge-phpdi-symfony": "^5.0.7",
+        "teknoo/composer-install": "^0.0.18",
+        "teknoo/east-foundation-symfony": "^5.3.9",
+        "teknoo/states": "^5.1.5",
+        "teknoo/east-website": "^6.1.6",
         "twig/twig": "~3.3"
     },
     "require-dev": {
