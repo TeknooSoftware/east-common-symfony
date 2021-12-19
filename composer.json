@@ -47,7 +47,7 @@
         "teknoo/composer-install": "^0.0.18",
         "teknoo/east-foundation-symfony": "^5.3.9",
         "teknoo/states": "^5.1.5",
-        "teknoo/east-website": "^6.1.6",
+        "teknoo/east-website": "^6.1.7",
         "twig/twig": "~3.3"
     },
     "require-dev": {
