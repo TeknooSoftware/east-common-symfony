@@ -151,5 +151,10 @@
                 ]
             }
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "teknoo/composer-install": true
+        }
     }
 }
