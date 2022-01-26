@@ -29,9 +29,9 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "doctrine/common": "~3.1",
-        "doctrine/mongodb-odm": "~2.2",
-        "doctrine/mongodb-odm-bundle": "~4.3",
+        "doctrine/common": "~3.2",
+        "doctrine/mongodb-odm": "~2.3",
+        "doctrine/mongodb-odm-bundle": "~4.4",
         "laminas/laminas-diactoros": "~2.8",
         "psr/http-message":"^1.0.1",
         "psr/http-factory":"^1.0.1",
