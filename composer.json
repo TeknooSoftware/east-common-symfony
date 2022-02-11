@@ -45,9 +45,11 @@
         "symfony/yaml": "~5.4||~6.0",
         "teknoo/bridge-phpdi-symfony": "^5.0.7",
         "teknoo/composer-install": "^0.0.18",
-        "teknoo/east-foundation-symfony": "^5.3.9",
-        "teknoo/states": "^5.1.5",
-        "teknoo/east-website": "^6.1.7",
+        "teknoo/immutable": "^2.1.12||^3.0",
+        "teknoo/states": "^5.1.9||^6.0",
+        "teknoo/recipe": "^3.4.5||^4.0",
+        "teknoo/east-foundation-symfony": "^5.3.10",
+        "teknoo/east-website": "^6.1.9",
         "twig/twig": "~3.3"
     },
     "require-dev": {
