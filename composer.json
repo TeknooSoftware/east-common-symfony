@@ -48,7 +48,7 @@
         "teknoo/states": "^6.0",
         "teknoo/recipe": "^4.1.0",
         "teknoo/east-foundation-symfony": "^6.0.1",
-        "teknoo/east-website": "^7.0.0",
+        "teknoo/east-website": "^7.0.1",
         "twig/twig": "^3.3"
     },
     "require-dev": {
