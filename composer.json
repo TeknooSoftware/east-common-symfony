@@ -44,11 +44,11 @@
         "symfony/templating": "^6.0",
         "symfony/yaml": "^6.0",
         "teknoo/bridge-phpdi-symfony": "^5.0.7",
-        "teknoo/immutable": "^3.0",
-        "teknoo/states": "^6.0",
-        "teknoo/recipe": "^4.1.0",
-        "teknoo/east-foundation-symfony": "^6.0.1",
-        "teknoo/east-website": "^7.0.1",
+        "teknoo/immutable": "^3.0.1",
+        "teknoo/states": "^6.0.1",
+        "teknoo/recipe": "^4.1.1",
+        "teknoo/east-foundation-symfony": "^6.0.2",
+        "teknoo/east-website": "^7.0.2",
         "twig/twig": "^3.3"
     },
     "require-dev": {
