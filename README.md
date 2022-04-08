@@ -1,7 +1,7 @@
-Teknoo Software - Website library
+Teknoo Software - Common library
 =================================
 
-Metapackage to install [Teknoo East Website](https://github.com/TeknooSoftware/east-website) with Symfony. 
+Metapackage to install [Teknoo East Common](https://github.com/TeknooSoftware/east-common) with Symfony. 
 
 Installation & Requirements
 ---------------------------
@@ -42,4 +42,4 @@ Teknoo Software's goals : Provide to our partners and to the community a set of 
 
 License
 -------
-East Website is licensed under the MIT License - see the licenses folder for details
+East Common is licensed under the MIT License - see the licenses folder for details

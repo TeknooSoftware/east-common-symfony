@@ -1,9 +1,9 @@
 {
-    "name": "teknoo/east-website-symfony",
+    "name": "teknoo/east-common-symfony",
     "type": "metapackage",
-    "description": "Metapackage to install Teknoo East Website in Symfony, Package following the #East programming philosophy, build on Teknoo/East-Foundation (and Teknoo/Recipe), and implementing a basic CMS to display dynamics pages with different types and templates.",
-    "keywords": ["east","website","cms"],
-    "homepage": "http://teknoo.software/website",
+    "description": "Metapackage to install Teknoo East Common in Symfony, Package following the #East programming philosophy, build on Teknoo/East-Foundation (and Teknoo/Recipe), providing components (user management, object persistence, template rendering, ..) for the creation of web application or website.",
+    "keywords": ["east","common","application"],
+    "homepage": "http://teknoo.software/common",
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/TeknooSoftware/east-website-symfony/issues",
-        "source": "https://github.com/TeknooSoftware/east-website-symfony"
+        "issues": "https://github.com/TeknooSoftware/east-common-symfony/issues",
+        "source": "https://github.com/TeknooSoftware/east-common-symfony"
     },
     "funding": [
         {
@@ -35,7 +35,6 @@
         "laminas/laminas-diactoros": "^2.8",
         "psr/http-message":"^1.0.1",
         "psr/http-factory":"^1.0.1",
-        "symfony/console": "^6.0",
         "symfony/form": "^6.0",
         "symfony/http-kernel": "^6.0",
         "symfony/psr-http-message-bridge": "^2.1",
@@ -48,7 +47,7 @@
         "teknoo/states": "^6.0.1",
         "teknoo/recipe": "^4.1.2",
         "teknoo/east-foundation-symfony": "^6.0.3",
-        "teknoo/east-website": "^7.0.3",
+        "teknoo/east-common-symfony": "^1.0.0-beta1",
         "twig/twig": "^3.3"
     },
     "require-dev": {
