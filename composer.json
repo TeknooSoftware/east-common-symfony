@@ -32,7 +32,7 @@
         "doctrine/common": "^3.2",
         "doctrine/mongodb-odm": "^2.3",
         "doctrine/mongodb-odm-bundle": "^4.4",
-        "laminas/laminas-diactoros": "^2.8",
+        "laminas/laminas-diactoros": "^2.9",
         "psr/http-message":"^1.0.1",
         "psr/http-factory":"^1.0.1",
         "symfony/form": "^6.0",
@@ -47,7 +47,7 @@
         "teknoo/states": "^6.0.1",
         "teknoo/recipe": "^4.1.2",
         "teknoo/east-foundation-symfony": "^6.0.3",
-        "teknoo/east-common": "^1.0.1",
+        "teknoo/east-common": "^1.0.2",
         "twig/twig": "^3.3"
     },
     "require-dev": {
