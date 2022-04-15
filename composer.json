@@ -42,7 +42,7 @@
         "symfony/security-bundle": "^6.0",
         "symfony/templating": "^6.0",
         "symfony/yaml": "^6.0",
-        "teknoo/bridge-phpdi-symfony": "^5.0.7",
+        "teknoo/bridge-phpdi-symfony": "^5.1.0",
         "teknoo/immutable": "^3.0.1",
         "teknoo/states": "^6.0.1",
         "teknoo/recipe": "^4.1.2",
