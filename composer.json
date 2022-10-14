@@ -45,9 +45,9 @@
         "teknoo/bridge-phpdi-symfony": "^5.1.1",
         "teknoo/immutable": "^3.0.1",
         "teknoo/states": "^6.0.7",
-        "teknoo/recipe": "^4.1.4",
+        "teknoo/recipe": "^4.2",
         "teknoo/east-foundation-symfony": "^6.0.5",
-        "teknoo/east-common": "^1.4.2",
+        "teknoo/east-common": "^1.4.3",
         "twig/twig": "^3.4"
     },
     "require-dev": {
