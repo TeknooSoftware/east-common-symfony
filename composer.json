@@ -43,11 +43,11 @@
         "symfony/templating": "^6.1",
         "symfony/yaml": "^6.1",
         "teknoo/bridge-phpdi-symfony": "^5.2",
-        "teknoo/immutable": "^3.0.12",
-        "teknoo/states": "^6.0.12",
-        "teknoo/recipe": "^4.2.1",
-        "teknoo/east-foundation-symfony": "^6.2",
-        "teknoo/east-common": "^1.6.1",
+        "teknoo/immutable": "^3.0.14",
+        "teknoo/states": "^6.0.14",
+        "teknoo/recipe": "^4.2.3",
+        "teknoo/east-foundation-symfony": "^6.2.5",
+        "teknoo/east-common": "^1.6.2",
         "twig/twig": "^3.4"
     },
     "require-dev": {
