@@ -31,7 +31,7 @@ Thanks :) Richard.
 
 Credits
 -------
-Richard Déloge - <richarddeloge@gmail.com> - Lead developer.
+Richard Déloge - <richard@teknoo.software> - Lead developer.
 Teknoo Software - <https://teknoo.software>
 
 About Teknoo Software
