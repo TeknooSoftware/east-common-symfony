@@ -47,9 +47,9 @@
         "teknoo/immutable": "^3.0.16",
         "teknoo/states": "^6.1.2",
         "teknoo/recipe": "^4.2.8",
-        "teknoo/east-foundation-symfony": "^7.0.0",
-        "teknoo/east-common": "^2.0.0",
-        "twig/twig": "^3.6"
+        "teknoo/east-foundation-symfony": "^7.2.0",
+        "teknoo/east-common": "^2.0.1",
+        "twig/twig": "^3.7"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
