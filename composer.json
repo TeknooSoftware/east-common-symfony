@@ -49,8 +49,8 @@
         "teknoo/immutable": "^3.0.18",
         "teknoo/states": "^6.4.1",
         "teknoo/recipe": "^5.1.2",
-        "teknoo/east-foundation-symfony": "^7.8.1",
-        "teknoo/east-common": "^2.12.6",
+        "teknoo/east-foundation-symfony": "^7.9",
+        "teknoo/east-common": "^2.13",
         "twig/twig": "^3.8"
     },
     "require-dev": {
