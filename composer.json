@@ -29,9 +29,9 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "doctrine/common": "^3.4.5",
-        "doctrine/mongodb-odm": "^2.9",
-        "doctrine/mongodb-odm-bundle": "^4.7||^5",
+        "doctrine/common": "^3.5",
+        "doctrine/mongodb-odm": "^2.10",
+        "doctrine/mongodb-odm-bundle": "^5.2",
         "laminas/laminas-diactoros": "^3.5",
         "league/flysystem": "^3.29.1",
         "matthiasmullie/minify": "^1.3.73",
@@ -47,10 +47,10 @@
         "symfony/yaml": "^6.3||^7",
         "teknoo/bridge-phpdi-symfony": "^6.1",
         "teknoo/immutable": "^3.0.18",
-        "teknoo/states": "^6.4.1",
-        "teknoo/recipe": "^6",
-        "teknoo/east-foundation-symfony": "^8",
-        "teknoo/east-common": "^3.0.5",
+        "teknoo/states": "^6.4.2",
+        "teknoo/recipe": "^6.0.2",
+        "teknoo/east-foundation-symfony": "^8.0.3",
+        "teknoo/east-common": "^3.0.6",
         "twig/twig": "^3.14"
     },
     "require-dev": {
