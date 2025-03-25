@@ -50,7 +50,7 @@
         "teknoo/states": "^6.4.3",
         "teknoo/recipe": "^6.0.3",
         "teknoo/east-foundation-symfony": "^8.0.4",
-        "teknoo/east-common": "^3.0.8",
+        "teknoo/east-common": "^3.1",
         "twig/twig": "^3.19"
     },
     "require-dev": {
