@@ -30,7 +30,7 @@
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
         "doctrine/common": "^3.5",
-        "doctrine/mongodb-odm": "^2.15.1",
+        "doctrine/mongodb-odm": "^2.15.3",
         "doctrine/mongodb-odm-bundle": "^5.5.1",
         "doctrine/persistence": "^4.1.1",
         "laminas/laminas-diactoros": "^3.8",
@@ -50,9 +50,9 @@
         "teknoo/immutable": "^3.0.22",
         "teknoo/states": "^7.1.2",
         "teknoo/recipe": "^7.2.2",
-        "teknoo/east-foundation-symfony": "^9.0.3",
-        "teknoo/east-common": "^4.1.1",
-        "twig/twig": "^3.22.1"
+        "teknoo/east-foundation-symfony": "^9.0.4",
+        "teknoo/east-common": "^4.1.2",
+        "twig/twig": "^3.22.2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
