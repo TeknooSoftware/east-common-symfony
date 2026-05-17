@@ -44,6 +44,7 @@
         "symfony/psr-http-message-bridge": "^6.4.24||^7.3||^8",
         "symfony/security-core": "^6.4.24||^7.3||^8",
         "symfony/security-bundle": "^6.4.24||^7.3||^8",
+        "symfony/uid": "^6.4.24||^7.3||^8",
         "symfony/validator": "^6.4.24||^7.3||^8",
         "symfony/yaml": "^6.4.24||^7.3||^8",
         "teknoo/bridge-phpdi-symfony": "^7.1.2",
@@ -51,7 +52,7 @@
         "teknoo/states": "^7.1.2",
         "teknoo/recipe": "^7.2.2",
         "teknoo/east-foundation-symfony": "^9.2.1",
-        "teknoo/east-common": "^4.4.1",
+        "teknoo/east-common": "^4.5",
         "twig/twig": "^3.22.2"
     },
     "require-dev": {
