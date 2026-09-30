@@ -49,10 +49,10 @@
         "symfony/yaml": "^6.4.24||^7.4||^8.1",
         "teknoo/bridge-phpdi-symfony": "^7.1.2",
         "teknoo/immutable": "^3.0.22",
-        "teknoo/states": "^7.1.2",
-        "teknoo/recipe": "^7.2.2",
-        "teknoo/east-foundation-symfony": "^9.2.1",
-        "teknoo/east-common": "^4.5.1",
+        "teknoo/states": "^7.1.11",
+        "teknoo/recipe": "^7.3",
+        "teknoo/east-foundation-symfony": "^9.2.4",
+        "teknoo/east-common": "^4.6",
         "twig/twig": "^3.22.2"
     },
     "require-dev": {
