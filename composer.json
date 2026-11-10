@@ -29,7 +29,6 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "doctrine/common": "^3.5",
         "doctrine/mongodb-odm": "^2.15.3",
         "doctrine/mongodb-odm-bundle": "^5.5.1",
         "doctrine/persistence": "^4.1.1",
@@ -52,7 +51,7 @@
         "teknoo/states": "^7.1.11",
         "teknoo/recipe": "^7.3",
         "teknoo/east-foundation-symfony": "^9.4",
-        "teknoo/east-common": "^4.10",
+        "teknoo/east-common": "^4.10.1",
         "twig/twig": "^3.22.2"
     },
     "require-dev": {
