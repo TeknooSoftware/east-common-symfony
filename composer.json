@@ -29,7 +29,6 @@
     "require": {
         "ext-simplexml" : "*",
         "ext-mongodb" : "*",
-        "doctrine/common": "^3.5",
         "doctrine/mongodb-odm": "^2.15.3",
         "doctrine/mongodb-odm-bundle": "^5.5.1",
         "doctrine/persistence": "^4.1.1",
